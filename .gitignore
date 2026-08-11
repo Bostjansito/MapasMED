@@ -3,19 +3,16 @@
 # ======================================================================
 
 # ----------------------------------------------------------------------
-# DATOS CRUDOS
+# DATOS CRUDOS — NINGÚN CSV SE SUBE
 # ----------------------------------------------------------------------
-# Los CSV de hurtos y de velocidad no caben en GitHub:
+# Cuatro de ellos ni siquiera caben en GitHub:
 #   hurto_a_persona.csv                 118,7 MB  <- supera el límite DURO de 100 MB
 #   velocidad_e_intensidad_...csv        75,7 MB  <- supera el aviso de 50 MB
 #   hurto_de_moto.csv                    30,5 MB
 #   hurto_de_carro.csv                   13,7 MB
-# Se excluyen todos y se documenta en el README de dónde bajarlos.
-datos/*.csv
-
-# ...salvo los dos pequeños, que sí vale la pena versionar:
-!datos/Criminalidad por Comuna_data.csv
-!datos/202608091356-ansv-fotodeteccion.csv
+# Los demás se excluyen también, por coherencia: los datos van aparte y en
+# el README está de dónde bajarlos.
+*.csv
 
 # ----------------------------------------------------------------------
 # ARTEFACTOS REGENERABLES
