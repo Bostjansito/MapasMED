@@ -82,3 +82,10 @@ $RECYCLE.BIN/
 .env
 *.key
 secrets.json
+
+# ----------------------------------------------------------------------
+# INSTRUCCIONES DE LOS AGENTES
+# ----------------------------------------------------------------------
+# Notas de trabajo internas, no forman parte de la entrega.
+AGENTE_BACKEND.md
+AGENTE_MAPAS.md
