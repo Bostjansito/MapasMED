@@ -84,8 +84,14 @@ $RECYCLE.BIN/
 secrets.json
 
 # ----------------------------------------------------------------------
-# INSTRUCCIONES DE LOS AGENTES
+# DOCUMENTACION INTERNA
 # ----------------------------------------------------------------------
-# Notas de trabajo internas, no forman parte de la entrega.
+# Notas de trabajo y material de apoyo: no forman parte de la entrega.
+# La carpeta entera queda fuera del repositorio.
+docs/
+
+# Las dos reglas de abajo son redundantes mientras los archivos vivan en
+# docs/, pero se dejan a proposito: si alguien los devuelve a la raiz,
+# siguen sin subirse.
 AGENTE_BACKEND.md
 AGENTE_MAPAS.md
